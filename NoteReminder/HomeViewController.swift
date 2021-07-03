@@ -69,16 +69,18 @@ class HomeViewController: UIViewController, UITextViewDelegate, UITableViewDeleg
     @objc func analysis(_ sender: Any) {
         analysisArray = []
         let text:String = self.noteTextView.text
-        let linguisticTagger = NSLinguisticTagger(tagSchemes: NSLinguisticTagger.availableTagSchemes(forLanguage: "ja"), options: 0)
-        linguisticTagger.string = text
-        linguisticTagger.enumerateTags(in: NSRange(location: 0, length: text.count),
-                                       scheme: NSLinguisticTagScheme.tokenType,
-                                       options: [.omitWhitespace]) {
-            tag, tokenRange, sentenceRange, stop in
-            let subString = (text as NSString).substring(with: tokenRange)
-            print("\(subString) : \(String(describing: tag))")
-            analysisArray.append(subString)
-        }
+//        let linguisticTagger = NSLinguisticTagger(tagSchemes: NSLinguisticTagger.availableTagSchemes(forLanguage: "ja"), options: 0)
+//        linguisticTagger.string = text
+//        linguisticTagger.enumerateTags(in: NSRange(location: 0, length: text.count),
+//                                       scheme: NSLinguisticTagScheme.tokenType,
+//                                       options: [.omitWhitespace]) {
+//            tag, tokenRange, sentenceRange, stop in
+//            let subString = (text as NSString).substring(with: tokenRange)
+//            print("\(subString) : \(String(describing: tag))")
+//            analysisArray.append(subString)
+//        }
+        
+        analysisArray = text.lines
         analysisTableView.reloadData()
         analysisTableView.isHidden = false
     }
@@ -217,3 +219,14 @@ extension HomeViewController {
     }
 }
 
+extension String {
+
+    var lines: [String] {
+        var lines = [String]()
+        self.enumerateLines { (line, stop) -> () in
+            lines.append(line)
+        }
+        return lines
+    }
+
+}

@@ -52,7 +52,11 @@ class TaskListViewController: UIViewController, UITableViewDelegate, UITableView
         if task.done {
             cell.accessoryType = UITableViewCell.AccessoryType.checkmark
             cell.backgroundColor = UIColor.lightGray
+        } else {
+            cell.accessoryType = UITableViewCell.AccessoryType.none
+            cell.backgroundColor = #colorLiteral(red: 0.7996098995, green: 1, blue: 0.9844576716, alpha: 0.8470588235)
         }
+        
         return cell
     }
     
