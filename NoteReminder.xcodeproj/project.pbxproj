@@ -3,19 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5171A8B026901DC600FA37D8 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5171A8AF26901DC600FA37D8 /* CheckBox.swift */; };
+		51936B462688087900972968 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51936B452688087900972968 /* Note.swift */; };
+		51936B4E2689E4CD00972968 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51936B4D2689E4CD00972968 /* TaskListViewController.swift */; };
+		51936B512689E4F500972968 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51936B502689E4F500972968 /* TaskViewController.swift */; };
+		51936B542689FFA100972968 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51936B532689FFA100972968 /* Task.swift */; };
 		51E328DB268696B00003D482 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E328DA268696B00003D482 /* AppDelegate.swift */; };
 		51E328DD268696B00003D482 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E328DC268696B00003D482 /* SceneDelegate.swift */; };
 		51E328DF268696B00003D482 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E328DE268696B00003D482 /* ViewController.swift */; };
 		51E328E2268696B00003D482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E328E0268696B00003D482 /* Main.storyboard */; };
 		51E328E4268696B00003D482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E328E3268696B00003D482 /* Assets.xcassets */; };
 		51E328E7268696B00003D482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E328E5268696B00003D482 /* LaunchScreen.storyboard */; };
+		51E328F026869F510003D482 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E328EF26869F510003D482 /* HomeViewController.swift */; };
+		51E328F32686A4350003D482 /* NoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E328F22686A4350003D482 /* NoteListViewController.swift */; };
+		8F9B0AD0AD570B3599401431 /* Pods_NoteReminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0971B5397B7CDC78A87725D /* Pods_NoteReminder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CD71BD00EE04F386AB9C73A /* Pods-NoteReminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteReminder.release.xcconfig"; path = "Target Support Files/Pods-NoteReminder/Pods-NoteReminder.release.xcconfig"; sourceTree = "<group>"; };
+		5171A8AF26901DC600FA37D8 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		51936B452688087900972968 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		51936B4D2689E4CD00972968 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		51936B502689E4F500972968 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		51936B532689FFA100972968 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		51E328D7268696B00003D482 /* NoteReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E328DA268696B00003D482 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51E328DC268696B00003D482 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,10 @@
 		51E328E3268696B00003D482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51E328E6268696B00003D482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51E328E8268696B00003D482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E328EF26869F510003D482 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		51E328F22686A4350003D482 /* NoteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListViewController.swift; sourceTree = "<group>"; };
+		B0971B5397B7CDC78A87725D /* Pods_NoteReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoteReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D390A16A38708A5D3A1CF000 /* Pods-NoteReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteReminder.debug.xcconfig"; path = "Target Support Files/Pods-NoteReminder/Pods-NoteReminder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9B0AD0AD570B3599401431 /* Pods_NoteReminder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				51E328D9268696B00003D482 /* NoteReminder */,
 				51E328D8268696B00003D482 /* Products */,
+				77C228AFCEFF8A793EDA0191 /* Pods */,
+				79568BA64C8E6D71CD599908 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +78,38 @@
 			isa = PBXGroup;
 			children = (
 				51E328DA268696B00003D482 /* AppDelegate.swift */,
+				5171A8AF26901DC600FA37D8 /* CheckBox.swift */,
 				51E328DC268696B00003D482 /* SceneDelegate.swift */,
 				51E328DE268696B00003D482 /* ViewController.swift */,
 				51E328E0268696B00003D482 /* Main.storyboard */,
+				51936B4D2689E4CD00972968 /* TaskListViewController.swift */,
+				51936B532689FFA100972968 /* Task.swift */,
+				51936B502689E4F500972968 /* TaskViewController.swift */,
+				51E328F22686A4350003D482 /* NoteListViewController.swift */,
+				51E328EF26869F510003D482 /* HomeViewController.swift */,
+				51936B452688087900972968 /* Note.swift */,
 				51E328E3268696B00003D482 /* Assets.xcassets */,
 				51E328E5268696B00003D482 /* LaunchScreen.storyboard */,
 				51E328E8268696B00003D482 /* Info.plist */,
 			);
 			path = NoteReminder;
+			sourceTree = "<group>";
+		};
+		77C228AFCEFF8A793EDA0191 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D390A16A38708A5D3A1CF000 /* Pods-NoteReminder.debug.xcconfig */,
+				2CD71BD00EE04F386AB9C73A /* Pods-NoteReminder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		79568BA64C8E6D71CD599908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0971B5397B7CDC78A87725D /* Pods_NoteReminder.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51E328EB268696B00003D482 /* Build configuration list for PBXNativeTarget "NoteReminder" */;
 			buildPhases = (
+				B3C36C21278AE1E5F358B5DB /* [CP] Check Pods Manifest.lock */,
 				51E328D3268696B00003D482 /* Sources */,
 				51E328D4268696B00003D482 /* Frameworks */,
 				51E328D5268696B00003D482 /* Resources */,
+				AB32A874E6E92A32A038B760 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +179,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AB32A874E6E92A32A038B760 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NoteReminder/Pods-NoteReminder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NoteReminder/Pods-NoteReminder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NoteReminder/Pods-NoteReminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3C36C21278AE1E5F358B5DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NoteReminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51E328D3268696B00003D482 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51936B4E2689E4CD00972968 /* TaskListViewController.swift in Sources */,
 				51E328DF268696B00003D482 /* ViewController.swift in Sources */,
 				51E328DB268696B00003D482 /* AppDelegate.swift in Sources */,
+				51936B462688087900972968 /* Note.swift in Sources */,
+				5171A8B026901DC600FA37D8 /* CheckBox.swift in Sources */,
 				51E328DD268696B00003D482 /* SceneDelegate.swift in Sources */,
+				51936B512689E4F500972968 /* TaskViewController.swift in Sources */,
+				51E328F32686A4350003D482 /* NoteListViewController.swift in Sources */,
+				51936B542689FFA100972968 /* Task.swift in Sources */,
+				51E328F026869F510003D482 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +379,7 @@
 		};
 		51E328EC268696B00003D482 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D390A16A38708A5D3A1CF000 /* Pods-NoteReminder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +399,7 @@
 		};
 		51E328ED268696B00003D482 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD71BD00EE04F386AB9C73A /* Pods-NoteReminder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
